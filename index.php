@@ -3,7 +3,7 @@
 $challenge = $_REQUEST['hub_challenge'];
 $verify_token = $_REQUEST['hub_verify_token'];
 
-if ($verify_token === 'my_token_code') {
+if ($verify_token === 'passto1234') {
 echo $challenge;
 }
 
